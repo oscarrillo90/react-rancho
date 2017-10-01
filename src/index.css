@@ -1,0 +1,28 @@
+.home {
+  padding-left: 8px;
+  padding-right: 8px;
+  color: white;
+}
+
+.header {
+  padding-left: 8px;
+  padding-right: 8px;
+  color: white;
+}
+
+.about {
+  padding-left: 8px;
+  padding-right: 8px;
+  color: white;
+}
+
+.contact {
+  padding-left: 8px;
+  padding-right: 8px;
+  color: white;
+}
+
+.nav-item {
+  padding-top: 2px;
+
+}

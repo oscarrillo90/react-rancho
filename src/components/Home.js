@@ -1,28 +1,17 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom';
+import {Jumbotron, Button} from 'react-bootstrap';
 
 class Home extends Component {
   render() {
     return (
       <div className="Home">
-      <h1>Procedures</h1>
 
-      <p>
-        Here at Dentist Office we provide a wide variety of procedures. We
-        accept all sorts of insurance and have competitive uninsured payment
-        plans. Find the service you need and visit our contact page to find
-        out how to reach out to us to make the appointment you need!
-      </p>
+      <Jumbotron>
+    <h1>Hello, world!</h1>
+    <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    <p><Button bsStyle="primary">Learn more</Button></p>
+  </Jumbotron>
 
-      <ul>
-        <li>General Checkups</li>
-        <li>Teeth Cleaning</li>
-        <li>Cavity Screenings</li>
-        <li>Cavity Fillings</li>
-        <li>Chipped Tooth Fixings</li>
-        <li>Tooth Removal</li>
-        <li>Root Canals</li>
-      </ul>
       </div>
     );
   }
