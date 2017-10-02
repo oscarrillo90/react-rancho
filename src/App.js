@@ -4,8 +4,10 @@ import {Navbar, Nav, NavItem} from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 
 import Home from './components/Home';
-import Header from './components/Header';
+import Menu from './components/Menu';
 import About from './components/About';
+import Footer from './components/Footer';
+import Contact from './components/Contact';
 
 class App extends Component {
   render() {
@@ -13,41 +15,32 @@ class App extends Component {
       <Router>
         <div className="App">
 
-        <Navbar inverse collapseOnSelect>
-<Navbar.Header>
-<Navbar.Brand>
-<a href="#">React-Bootstrap</a>
-</Navbar.Brand>
-<Navbar.Toggle />
-</Navbar.Header>
-<Navbar.Collapse>
-<Nav>
-<LinkContainer to="/"><NavItem eventKey={1}>Home</NavItem></LinkContainer>
-<LinkContainer to="/Header"><NavItem eventKey={2}>Header</NavItem></LinkContainer>
-<LinkContainer to="/About"><NavItem eventKey={3}>About</NavItem></LinkContainer>
-</Nav>
-<Nav pullRight>
-<NavItem eventKey={1} href="#">Link Right</NavItem>
-<NavItem eventKey={2} href="#">Link Right</NavItem>
-</Nav>
-</Navbar.Collapse>
-</Navbar>
+          <Navbar collapseOnSelect fixedTop className="navbar">
+            <Navbar.Header>
+              <Navbar.Brand>
+                <a href="#">Rancho Grande</a>
+              </Navbar.Brand>
+              <Navbar.Toggle />
+            </Navbar.Header>
+            <Navbar.Collapse>
+              <Nav pullRight>
+                <LinkContainer to="/"><NavItem eventKey={1}>Home</NavItem></LinkContainer>
+                <LinkContainer to="/Menu"><NavItem eventKey={2}>Menu</NavItem></LinkContainer>
+                <LinkContainer to="/About"><NavItem eventKey={3}>About</NavItem></LinkContainer>
+                <LinkContainer to="/Contact"><NavItem eventKey={4}>Contact</NavItem></LinkContainer>
+              </Nav>
+            </Navbar.Collapse>
+          </Navbar>
 
-          <Route exact path="/" component={Home} />
-          <Route path="/Header" component={Header} />
-          <Route path="/About" component={About} />
-
-
-
-
-
+        <Route exact path="/" component={Home} />
+        <Route path="/Menu" component={Menu} />
+        <Route path="/About" component={About} />
+        <Route path="/Contact" component={Contact} />
+        <Footer />
 
         </div>
 
       </Router>
-
-
-
     );
   }
 }

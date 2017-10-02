@@ -1,28 +1,34 @@
-.home {
-  padding-left: 8px;
-  padding-right: 8px;
-  color: white;
+.footer, .navbar {
+  background-color: #500019;
+  border-bottom: 0;
+  border-top: 0;
 }
 
-.header {
-  padding-left: 8px;
-  padding-right: 8px;
-  color: white;
+.navbar-default .navbar-nav>li>a {
+    color: white;
 }
 
-.about {
-  padding-left: 8px;
-  padding-right: 8px;
-  color: white;
+.navbar-default .navbar-brand {
+    color: white;
 }
 
-.contact {
-  padding-left: 8px;
-  padding-right: 8px;
-  color: white;
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+    background-color: #500019;
 }
 
-.nav-item {
-  padding-top: 2px;
+.navbar {
+  margin-bottom: 0;
+}
 
+.home-jumbo {
+    height: 990px;
+    padding-top: 300px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    color: white;
+    background-image: url("../src/imgs/landing.jpg");
+    background-size: cover;
+    background-position: center;
+    /* background-color: #eee; */
 }
