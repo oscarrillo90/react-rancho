@@ -7,8 +7,8 @@ class Home extends Component {
       <div className="Home">
 
       <Jumbotron className="home-jumbo">
-    <h1 className="animated fadeInDown">Hey, wanna eat something?</h1>
-  </Jumbotron>
+        <p responsive style={{display: 'flex', justifyContent: 'center'}} className="animated fadeInDown home-text">Hey, wanna eat something?</p>
+      </Jumbotron>
 
       </div>
     );

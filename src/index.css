@@ -1,7 +1,16 @@
+
+/* ////////////////
+ Navbar and Footer
+  ///////////////// */
+
 .footer, .navbar {
   background-color: #500019;
-  border-bottom: 0;
-  border-top: 0;
+  border-bottom: 0px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  margin-bottom: 0px;
+  border-radius: 0px;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -14,21 +23,65 @@
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
     color: white;
-    background-color: #500019;
+    background-color: #621A30;
 }
 
-.navbar {
-  margin-bottom: 0;
-}
+
+/* //////////////////////
+  Home Page Main Content
+  ////////////////////// */
 
 .home-jumbo {
-    height: 990px;
-    padding-top: 300px;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
+    height: 1000px;
     color: white;
+    font-size: 200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: -80px;
+    margin-left: -100px;
+    margin-bottom: 0px;
     background-image: url("../src/imgs/landing.jpg");
     background-size: cover;
     background-position: center;
     /* background-color: #eee; */
+}
+
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.home-text {
+  background-color: rgba(0,0,0,.46);
+  height: 1000px;
+  position: ;
+  padding-top: 350px;
+  padding-left: 100px;
+}
+
+
+/*  /////////////////
+  Menu Page Content
+  /////////////////// */
+
+.Menu {
+  position: relative;
+  width: 1430px;
+  height: 940px;
+}
+
+.menu-page {
+  background: url("../src/imgs/landing.jpg");
+  color: rgba(0,0,0,.3);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  color: white;
+  position: absolute;
+}
+
+.menu-text {
+
 }
