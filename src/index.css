@@ -52,7 +52,7 @@
   color: white;
   font-size: 40px;
   font-weight: 400;
-  height: 550px;
+  height: 600px;
   width: 1800;
   padding-top: 350px;
   padding-left: 150px;
@@ -81,6 +81,9 @@ width: 100%;
 
 .menu-text {
   color: white;
-  height: 595px;
-  padding-top: 350px;
+  font-size: 40px;
+  font-weight: 400;
+  height: 550px;
+  padding-top: 300px;
+  padding-left: 30px;
 }

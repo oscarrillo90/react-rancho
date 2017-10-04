@@ -7,7 +7,7 @@ class Menu extends Component {
       <div className="Menu">
         <div className="menu-overlay">
           <div className="menu-text responsive" style={{display: 'flex', justifyContent: 'center'}} >
-            <h1 className="animated fadeInDown responsive">Hello</h1>
+            <p className="animated fadeInDown responsive">Come back soon to see the finished website!</p>
           </div>
         </div>
       </div>

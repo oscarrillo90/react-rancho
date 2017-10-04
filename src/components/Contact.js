@@ -6,9 +6,9 @@ class Contact extends Component {
     return (
       <div className="Contact">
       <Jumbotron>
-  <h1>Hello, world!</h1>
-  <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-  <p><Button bsStyle="primary">Learn more</Button></p>
+  <h1>Work in Progess</h1>
+  <p>This page will have all the contact info!</p>
+  <p><Button bsStyle="primary">Woohoo!</Button></p>
 </Jumbotron>
       </div>
     );
