@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
-import {Jumbotron, Button, Image} from 'react-bootstrap';
+import {} from 'react-bootstrap';
 
 class Home extends Component {
   render() {
     return (
       <div className="Home">
-
-      <Jumbotron className="home-jumbo">
-        <p responsive style={{display: 'flex', justifyContent: 'center'}} className="animated fadeInDown home-text">Hey, wanna eat something?</p>
-      </Jumbotron>
+        <div className="home-overlay">
+         <div className="home-text-box animated fadeInDown" style={{display: 'flex', justifyContent: 'center'}} >
+          Hey, wanna eat something?
+          </div>
+        </div>
 
       </div>
     );
