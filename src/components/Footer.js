@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom';
 import {Navbar} from 'react-bootstrap';
 
 class Footer extends Component {
@@ -7,10 +6,10 @@ class Footer extends Component {
     return (
       <div className="Footer">
 
-      <Navbar className="footer">
+      <Navbar className="footer" style={{display: 'flex', justifyContent: 'center'}}>
           <Navbar.Header>
             <Navbar.Brand>
-              <a href="#">Rancho Grande</a>
+              <p style={{display: 'flex', justifyContent: 'center'}}><span role="img">©️</span> 2017 Copyright: Rancho Grande</p>
             </Navbar.Brand>
           </Navbar.Header>
         </Navbar>

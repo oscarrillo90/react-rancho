@@ -34,8 +34,8 @@
 .Home {
     background-image: url("../src/imgs/landing.jpg");
     background-size: cover;
-    background-position: center center;
-    position: relative;
+    background-position: center;
+    position: center;
     height: 1000px;
     margin-top: -25px;
     margin-left: -130px;
@@ -44,16 +44,16 @@
 .home-overlay {
   background-color: rgba(0,0,0,.45);
   position: relative;
-  height: 1000px;
-  width: 1555px;
+  height: 100%;
+  width: 100%;
 }
 
-.home-text-box {
+.home-text {
   color: white;
   font-size: 40px;
   font-weight: 400;
-  height: 1000px;
-  width: 1555px;
+  height: 550px;
+  width: 1800;
   padding-top: 350px;
   padding-left: 150px;
 }
@@ -64,23 +64,23 @@
   /////////////////// */
 
 .Menu {
-  background-size: cover;
   background-image: url("../src/imgs/landing.jpg");
-  width: 1430px;
-  height: 940px;
+  background-size: cover;
+  background-position: center;
+  position: center;
+  height: 1000px;
 }
 
 
 .menu-overlay {
 background-color: rgba(0,0,0,.5);
-background-size: cover;
-width: 1430px;
-height: 940px;
+position: relative;
+height: 100%;
+width: 100%;
 }
 
 .menu-text {
   color: white;
-  width: 1430px;
-  height: 940px;
+  height: 595px;
   padding-top: 350px;
 }
