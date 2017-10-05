@@ -6,8 +6,8 @@ class Home extends Component {
     return (
       <div className="Home">
         <div className="home-overlay">
-          <div className="home-text responsive" style={{display: 'flex', justifyContent: 'center'}} >
-            <p className="animated fadeInDown responsive">Hey, wanna eat something?</p>
+          <div className="home-text" style={{display: 'flex', justifyContent: 'center'}} >
+            <p className="home-title animated fadeInDown">Hey, wanna eat something?</p>
           </div>
         </div>
       </div>
